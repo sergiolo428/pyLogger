@@ -1,3 +1,4 @@
+# pyLogger
 from dataclasses import asdict
 import string
 import datetime
@@ -10,7 +11,7 @@ def logger(text):
         f.write(str(now) + " ||| " + text + "\n") # Write "now"
 
 if __name__=='__main__':
-    pathWindows="C:\\Python_Tests\\pyLogger"
+    pathWindows="C:\\Python\\pyLogger"
     pathLinux=""
 
     os.chdir(pathWindows) #Set curent path
